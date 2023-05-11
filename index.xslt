@@ -7,6 +7,8 @@
         <html>
 
         <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+
             <style>
                 body {
                     font-family: var(--font-family-ui) monospace;
@@ -47,7 +49,7 @@
         </head>
 
         <body>
-            <h1>&gt; <xsl:value-of select="$uri" /></h1>
+            <h1>&gt;&#160;<xsl:value-of select="$uri" /></h1>
 
             <table>
 
